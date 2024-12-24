@@ -34,13 +34,16 @@ cd LanguageModelling
 ```bash
 pip install -r requirements.txt
 ```
+
+
 ## Model Training:
-```bash
+```
 To train the model on your dataset:
 python train_model.py
 ```
+
 ## Usage
-```bash
+```
 To generate text using the pre-trained GPT-2 model:
 python generate_text.py
 
