@@ -5,10 +5,8 @@ This project uses pre-trained transformer models (such as DistilBERT and GPT-2) 
 ## Table of Contents
 1. [Project Overview](#project-overview)
 2. [Installation](#installation)
-3. [Usage](#usage)
-4. [Model Training](#model-training)
-5. [Contributing](#contributing)
-6. [License](#license)
+3. [Model Training](#model-training)
+4. [Usage](#usage)
 
 ## Project Overview
 
@@ -31,13 +29,18 @@ Follow these steps to set up the project locally.
 ```bash
 [git clone https://github.com/Saketh-Vadlamudi/LanguageModelling.git]
 cd LanguageModelling
+```
 ### 2. Install Dependencies:
+```bash
 pip install -r requirements.txt
-
-Training the Model:
+```
+## Model Training:
+```bash
 To train the model on your dataset:
 python train_model.py
-
+```
+## Usage
+```bash
 To generate text using the pre-trained GPT-2 model:
 python generate_text.py
 
