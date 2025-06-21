@@ -1,4 +1,4 @@
-# Transformer-based NLP Project 
+# Transformer-based NLP Project
 
 This project uses pre-trained transformer models (such as DistilBERT and GPT-2) to perform masked language modeling (MLM) and text generation tasks. The model is fine-tuned on a custom dataset to predict missing words in a sentence and generate new text based on a prompt.
 
